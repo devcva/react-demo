@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 export default function NavigationBar() {
     return (
-        <Navbar collapseOnSelect className="p-0 pl-2 pr-3" expand="lg" bg="primary" variant="dark" fixed="top" style={{fontSize: '20px'}}>
+        <Navbar collapseOnSelect className="p-0 pl-2 pr-3" expand="lg" variant="dark" fixed="top" style={{fontSize: '20px'}}>
             <Navbar.Brand href="/" style={{fontSize: '30px', fontWeight: 'bold'}}>
                 <img src={logo} alt="logo" className="pr-2" style={{ maxHeight: '100px' }}/>
                 Siva Tech</Navbar.Brand>

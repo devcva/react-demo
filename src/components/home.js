@@ -17,6 +17,7 @@ import prd7 from '../assets/prd7.jpg'
 import prd8 from '../assets/prd8.jpg'
 import prd9 from '../assets/prd9.jpg'
 import prd10 from '../assets/prd10.jpg'
+import bg01 from '../assets/bg.jpg'
 
 
 
@@ -72,7 +73,7 @@ export default function home() {
             }
         ]
     return (
-        <div style={{backgroundColor: 'gray'}}>
+        <div>
             <AutoCarousel />
             <div className="product-card-group">
                 <CardGroup>
